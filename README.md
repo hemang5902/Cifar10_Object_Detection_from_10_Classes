@@ -1,5 +1,5 @@
 # Cifar10_Object_Detection_from_10_Classes
-## View portfolio on : **link to be updated**
+## View on : **link to be updated**
 
 <h1 align="center">Hi 👋, I'm Hemang Gawali</h1>
 <h3 align="center">A passionate Data science enthusiast from India</h3>
