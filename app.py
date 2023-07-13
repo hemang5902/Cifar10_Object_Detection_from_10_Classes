@@ -63,4 +63,4 @@ def upload():
     return final_pred
   return None
 
-app.run(debug=True)
+app.run(debug=False, host='0.0.0.0')
