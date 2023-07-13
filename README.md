@@ -1,5 +1,6 @@
 # Cifar10_Object_Detection_from_10_Classes
-## View on : **link to be updated**
+## pip install -r requirements.txt -> Use this command if you want ot install the compatible versions of libraries.
+## View on : run the app.py file on your cmd prompt
 
 <h1 align="center">Hi 👋, I'm Hemang Gawali</h1>
 <h3 align="center">A passionate Data science enthusiast from India</h3>
