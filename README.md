@@ -49,6 +49,11 @@ Transfer learning means taking a pre-trained machine learning model and repurpos
 </p>
 
 ## Error correction procedure
+<p>
+  As there is no error in data to be corrected, Only
+<b>Normalizing the Pixel Values:
+X_train = X_train/255 and X_test = X_test/255</b><br>
+In deep learning models, it is common to normalize the input data to a range between 0 and 1. Since the pixel values in the CIFAR-10 dataset range from 0 to 255 (8-bit color depth), dividing all the pixel values by 255 scales them to the range [0, 1].</p>
 <hr>
 
 ## Final deployment using flask server
