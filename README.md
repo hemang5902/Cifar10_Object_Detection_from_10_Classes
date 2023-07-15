@@ -39,6 +39,15 @@ The classes are completely mutually exclusive. There is no overlap between autom
 <hr>
 
 ## Algorithm Used:
+<p>
+  ResNet stands for Residual Network and is a specific type of convolutional neural network (CNN) introduced in the 2015 paper “Deep Residual Learning for Image Recognition” by He Kaiming, Zhang Xiangyu, Ren Shaoqing, and Sun Jian. CNNs are commonly used to power computer vision applications.
+
+ResNet-50 is a 50-layer convolutional neural network (48 convolutional layers, one MaxPool layer, and one average pool layer). Residual neural networks are a type of artificial neural network (ANN) that forms networks by stacking residual blocks.
+
+https://colab.research.google.com/drive/1BCObsIcrondvrovDtKskQtgrUiXDBo0O?usp=sharing --> link for the trained model<br>
+Transfer learning means taking a pre-trained machine learning model and repurposing it for another related task for faster development. It helps achieve higher performance even if the model is trained on a smaller dataset.
+</p>
+
 ## Error correction procedure
 <hr>
 
