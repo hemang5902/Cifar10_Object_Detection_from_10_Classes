@@ -45,3 +45,15 @@ The classes are completely mutually exclusive. There is no overlap between autom
 ## Final deployment using flask server
 **pip install -r requirements.txt** -> Use this command if you want ot install the compatible versions of libraries.<br>
 **View on** : run the app.py file on your cmd prompt
+![Screenshot (26)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/909aac80-52a2-4567-852c-85045434d1a4)
+<br>
+![Screenshot (27)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/60b12b90-9a15-4443-a106-ae00dc88a1b8)
+<br>
+![Screenshot (28)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/7ad03fb3-ab1b-41a7-963f-76eada2ff920)
+<br>
+![Screenshot (29)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/5e538d95-63c8-4f83-b4b5-27357f7c2a30)
+<br>
+![Screenshot (31)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/02b1b43c-5cdd-47b9-aaa5-28706a7cd5be)
+<hr>
+
+# END
