@@ -43,7 +43,7 @@ Flask==2.2.5
 flatbuffers==23.5.26
 fonttools==4.38.0
 gast==0.4.0
-gevent==23.7.0
+gevent==22.10.2
 glob2==0.7
 google-auth==2.21.0
 google-auth-oauthlib==1.0.0
