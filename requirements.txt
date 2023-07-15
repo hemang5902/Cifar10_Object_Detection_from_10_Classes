@@ -41,7 +41,7 @@ fastjsonschema==2.17.1
 flake8==5.0.4
 Flask==2.2.5
 flatbuffers==23.5.26
-fonttools==4.40.0
+fonttools==4.38.0
 gast==0.4.0
 gevent==23.7.0
 glob2==0.7
