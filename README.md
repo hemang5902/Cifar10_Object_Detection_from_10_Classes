@@ -1,21 +1,73 @@
 # Cifar10_Object_Detection_from_10_Classes
-## pip install -r requirements.txt -> Use this command if you want ot install the compatible versions of libraries.
-## View on : run the app.py file on your cmd prompt
 
-<h1 align="center">Hi 👋, I'm Hemang Gawali</h1>
-<h3 align="center">A passionate Data science enthusiast from India</h3>
+## Dataset used: The CIFAR-10 dataset
+<p>
+  The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 
-- 💻 I'm currently pursuing **Bachelor's in Engineering in Information Technology** at **Institute of Engineering & Technology, DAVV, Indore**
+The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
+<br><br>
+Here are the classes in the dataset, as well as 10 random images from each:
 
-- 🌱 I’m currently **Data Science Summer Intern at Diginique Techlab**
+![Screenshot 2023-07-07 144542](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/40b1bf63-d8d7-4e1c-8b69-bee284ef8a60)
 
-- 📫 How to reach me **hemanggawali21@gmail.com**
+The classes are completely mutually exclusive. There is no overlap between automobiles and trucks. "Automobile" includes sedans, SUVs, things of that sort. "Truck" includes only big trucks. Neither includes pickup trucks.
+</p>
+<hr>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/hemang-gawali-792112213" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hemang gawali" height="30" width="40" /></a>
-<a href="https://instagram.com/hemang_gawali" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="hemang gawali" height="30" width="40" /></a>
+## Industrial Scope:
+<p>
+  The CIFAR-10 dataset is primarily used for academic and research purposes, especially in the field of computer vision and machine learning. However, it can also find applications in various industrial domains. Here are some potential industrial use cases for the CIFAR-10 dataset:
+
+1. Quality Control: In manufacturing industries, the CIFAR-10 dataset can be utilized for image classification to detect defects and anomalies in products during the production process. For instance, it could be employed to identify faulty items on assembly lines or ensure product compliance with quality standards.
+
+2. Surveillance and Security: The dataset can be valuable for building image recognition systems in the security industry. It can be used for identifying and tracking objects, people, or vehicles in security footage, helping enhance surveillance and threat detection.
+
+3. Autonomous Vehicles: In the automotive industry, CIFAR-10 can be used to develop algorithms for object recognition and classification. This enables self-driving cars to detect and interpret road signs, pedestrians, cyclists, and other vehicles, enhancing their safety and efficiency.
+
+4. Medical Imaging: The CIFAR-10 dataset can be adapted for classifying medical images, such as X-rays or MRIs, to assist in diagnosing diseases, identifying abnormalities, and predicting patient outcomes.
+
+5. Agriculture: The dataset can be employed to build systems that recognize and classify crops, pests, or diseases in agriculture. This can help optimize crop management and improve agricultural productivity.
+
+6. Retail and E-commerce: CIFAR-10 can be applied in the retail industry for tasks like product recognition and recommendation. For example, it can be used to identify products based on customer images or recommend similar items.
+
+7. Augmented Reality and Virtual Reality: The dataset can be utilized to enhance AR and VR experiences by enabling object recognition and scene understanding, making virtual objects interact more effectively with the real environment.
+
+8. Robotics: In the robotics industry, CIFAR-10 can be used for object detection and manipulation, allowing robots to recognize and interact with various objects in their surroundings.
+
+9. Environmental Monitoring: The dataset can be adapted to monitor environmental changes by identifying and classifying objects or events in satellite imagery, such as deforestation, urban growth, or natural disasters.
+</p>
+<hr>
+
+## Algorithm Used:
+<p>
+  ResNet stands for Residual Network and is a specific type of convolutional neural network (CNN) introduced in the 2015 paper “Deep Residual Learning for Image Recognition” by He Kaiming, Zhang Xiangyu, Ren Shaoqing, and Sun Jian. CNNs are commonly used to power computer vision applications.
+
+ResNet-50 is a 50-layer convolutional neural network (48 convolutional layers, one MaxPool layer, and one average pool layer). Residual neural networks are a type of artificial neural network (ANN) that forms networks by stacking residual blocks.
+
+https://colab.research.google.com/drive/1BCObsIcrondvrovDtKskQtgrUiXDBo0O?usp=sharing --> link for the trained model<br>
+Transfer learning means taking a pre-trained machine learning model and repurposing it for another related task for faster development. It helps achieve higher performance even if the model is trained on a smaller dataset.
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+## Error correction procedure
+<p>
+  As there is no error in data to be corrected, Only
+<b>Normalizing the Pixel Values:
+X_train = X_train/255 and X_test = X_test/255</b><br>
+In deep learning models, it is common to normalize the input data to a range between 0 and 1. Since the pixel values in the CIFAR-10 dataset range from 0 to 255 (8-bit color depth), dividing all the pixel values by 255 scales them to the range [0, 1].</p>
+<hr>
+
+## Final deployment using flask server
+**pip install -r requirements.txt** -> Use this command if you want ot install the compatible versions of libraries.<br>
+**View on** : run the app.py file on your cmd prompt
+![Screenshot (26)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/909aac80-52a2-4567-852c-85045434d1a4)
+<br>
+![Screenshot (27)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/60b12b90-9a15-4443-a106-ae00dc88a1b8)
+<br>
+![Screenshot (28)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/7ad03fb3-ab1b-41a7-963f-76eada2ff920)
+<br>
+![Screenshot (29)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/5e538d95-63c8-4f83-b4b5-27357f7c2a30)
+<br>
+![Screenshot (31)](https://github.com/hemang5902/Cifar10_Object_Detection_from_10_Classes/assets/107362216/02b1b43c-5cdd-47b9-aaa5-28706a7cd5be)
+<hr>
+
+# END
