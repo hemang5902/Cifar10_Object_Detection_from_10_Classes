@@ -33,14 +33,18 @@ model = load_model("objmodel.h5")#importing the pre-trained model.
 def model_predict(img_path, model):
     classes = ["airplane","automobile","bird","cat","deer","dog","frog","horse","ship","truck"]
     image = cv2.imread(img_path)
+    original_image = image.copy()  # Save a copy of the original image
+    
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     image = image.astype(np.float32) / 255.0
     image = cv2.resize(image, (32, 32))
     image = image.reshape((32, 32, 3))
+    
     # Make predictions
     predictions = model.predict(np.expand_dims(image, axis=0))
     class_index = np.argmax(predictions)
     class_name = classes[class_index]
+    
     return class_name
 
 @app.route("/", methods=['GET'])
